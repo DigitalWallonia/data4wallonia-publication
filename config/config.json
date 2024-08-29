@@ -3,12 +3,12 @@
   "otherLanguages": [
     "fr", "de"
   ],
-  "hostname": "https://semiceu.github.io",
+  "hostname": "https://EmidioStani.github.io",
   "domain": "data.europa.eu",
   "publicationpoints" : ["dev"],
   "generatedrepository" : {
-	  "organisation": "SEMICeu",
-	  "repository" : "uri.semic.eu-generated",
+	  "organisation": "EmidioStani",
+	  "repository" : "data4wallonia-generated",
 	  "private" : true,
 	  "gitEmail" : "contact@semic.eu",
 	  "gitUser" : "Circle CI Builder"
