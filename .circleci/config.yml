@@ -9,10 +9,9 @@ jobs:
       - checkout
       - add_ssh_keys:
           fingerprints:
-            - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
-            - "0f:f5:f3:70:0a:47:30:b5:4d:c7:71:97:f9:63:9f:c9"
-            - "f1:b9:c3:88:b2:23:a4:ab:9d:b0:b6:56:01:cb:e5:c8"
-            - "ec:8f:5a:dc:dd:16:4f:7e:4a:ea:e5:9e:ac:f2:a1:a7"
+            - "SHA256:7dXI7ziKVodhBgrTzQGlrwu0bJvoGv/mcvPfv7gcfOY"
+            - "SHA256:GCkx/QfzG27u+5/uRfWwAgLsyWdkyStJ9xojHmCqKZw"
+            - "SHA256:aNIhKZFCNIaPXtrll1j2RYDeUvAjkkm+puGm6l1sRAg"
       - run:
           name: update and add extra statements of updating the ssh config for each private ssh key
           command: |
@@ -418,7 +417,7 @@ jobs:
       - add_ssh_keys:
           fingerprints:
             - << parameters.generatedReporFingerprint >>
-            - "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
+            - "SHA256:7dXI7ziKVodhBgrTzQGlrwu0bJvoGv/mcvPfv7gcfOY"
       - run:
           name: update and add extra statements of updating the ssh config for each private ssh key
           command: |
@@ -558,6 +557,6 @@ workflows:
             - render-xsd-details
             - render-voc-rdf
       - create-artifact:
-          generatedReporFingerprint: "6d:07:6e:01:36:b0:89:1d:b2:93:6e:bf:86:a1:4d:61"
+          generatedReporFingerprint: "SHA256:7dXI7ziKVodhBgrTzQGlrwu0bJvoGv/mcvPfv7gcfOY"
           requires:
             - expand-links
