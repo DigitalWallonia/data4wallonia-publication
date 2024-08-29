@@ -1,11 +1,11 @@
 [
   {
-	"dummy": "5",
+	"dummy": "6",
     "urlref": "/CPSV-AP/releases/3.2.0/",
     "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
     "branchtag": "ReSpecCV",
     "name": "cpsv-ap",
-    "filename": "config/cpsv-ap.json",
+    "filename": "config/data4wallonia.json",
     "navigation": {
       "prev":"https://semiceu.github.io/CPSV-AP/releases/3.2.0/"
     
