@@ -1,7 +1,7 @@
 [
   {
-	"dummy": "7",
-    "urlref": "/CPSV-AP/releases/3.2.0/",
+	"dummy": "8",
+    "urlref": "/D4WTA-AP/releases/3.2.0/",
     "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
     "branchtag": "ReSpecCV",
     "name": "d4wta-ap",
