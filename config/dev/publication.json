@@ -2,7 +2,7 @@
   {
 	"dummy": "37",
     "urlref": "/D4WTA-AP/releases/1.0.0/",
-    "repository": "git@github.com:EmidioStani/data4wallonia-thema.git",
+    "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
     "branchtag": "ReSpecCV",
     "name": "d4wta-ap",
     "filename": "config/data4wallonia.json",

@@ -3,11 +3,11 @@
   "otherLanguages": [
     "fr", "de"
   ],
-  "hostname": "https://EmidioStani.github.io",
+  "hostname": "https://DigitalWallonia.github.io",
   "domain": "data.europa.eu",
   "publicationpoints" : ["dev"],
   "generatedrepository" : {
-	  "organisation": "EmidioStani",
+	  "organisation": "DigitalWallonia",
 	  "repository" : "data4wallonia-generated",
 	  "private" : true,
 	  "gitEmail" : "contact@semic.eu",
