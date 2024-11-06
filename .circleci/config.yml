@@ -7,6 +7,9 @@ jobs:
       - image: cimg/node:18.16.0
     steps:
       - checkout
+      - run:
+          name: Add github.com to known hosts
+          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - add_ssh_keys:
           fingerprints:
             - "SHA256:PkQt1N4BIQxLvaeail6Sn1yDA3ItjuZ2ZJ/pCg2F/jw"
