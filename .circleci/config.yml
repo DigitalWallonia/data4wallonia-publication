@@ -7,6 +7,7 @@ jobs:
       - image: cimg/node:18.16.0
     steps:
       - checkout
+      - run: mkdir ~/.ssh
       - run: touch ~/.ssh/known_hosts
       - run:
           name: Add github.com to known hosts
