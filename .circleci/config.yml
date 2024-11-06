@@ -421,6 +421,10 @@ jobs:
           at: /tmp/workspace
       - run: mkdir ~/.ssh
       - run: touch ~/.ssh/config
+      - run: touch ~/.ssh/known_hosts
+      - run:
+          name: Add github.com to known hosts
+          command: ssh-keyscan github.com >> ~/.ssh/known_hosts
       - add_ssh_keys:
           fingerprints:
             - << parameters.generatedReporFingerprint >>
