@@ -419,6 +419,8 @@ jobs:
       - checkout
       - attach_workspace:
           at: /tmp/workspace
+      - run: mkdir ~/.ssh
+      - run: touch ~/.ssh/config
       - add_ssh_keys:
           fingerprints:
             - << parameters.generatedReporFingerprint >>
