@@ -1,13 +1,13 @@
 [
   {
-	"dummy": "5",
+	"dummy": "6",
     "urlref": "/D4WTA-AP/releases/1.0.0/",
     "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
     "branchtag": "ReSpecCV",
     "name": "d4wta-ap",
     "filename": "config/data4wallonia.json",
     "navigation": {
-      "prev":"https://emidiostani.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
+      "prev":"https://DigitalWallonia.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
     
     }
   }
