@@ -412,7 +412,6 @@ jobs:
       - checkout
       - attach_workspace:
           at: /tmp/workspace
-      - run: mkdir ~/.ssh
       - run: touch ~/.ssh/config
       - run: touch ~/.ssh/known_hosts
       - run:
