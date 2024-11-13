@@ -9,7 +9,7 @@
   "generatedrepository" : {
 	  "organisation": "DigitalWallonia",
 	  "repository" : "data4wallonia-generated",
-	  "private" : true,
+	  "private" : false,
 	  "gitEmail" : "contact@semic.eu",
 	  "gitUser" : "Circle CI Builder"
   },
