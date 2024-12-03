@@ -34,5 +34,17 @@
           "prev":"https://DigitalWallonia.github.io/data4wallonia-generated/D4WMO-Generic/releases/1.0.0"
         
         }
+    },
+    {
+    "dummy": "1",
+      "urlref": "/D4WMO-AP/releases/1.0.0/",
+      "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
+      "branchtag": "ReSpecCV",
+      "name": "d4wmo-ap",
+      "filename": "config/data4wallonia.json",
+      "navigation": {
+        "prev":"https://DigitalWallonia.github.io/data4wallonia-generated/D4WMO-AP/releases/1.0.0"
+      
       }
+    }
  ]
