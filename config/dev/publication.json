@@ -1,6 +1,6 @@
 [
   {
-	"dummy": "11",
+	"dummy": "12",
     "urlref": "/D4WTA-AP/releases/1.0.0/",
     "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
     "branchtag": "ReSpecCV",
@@ -12,7 +12,7 @@
     }
   },
   {
-    "dummy": "8",
+    "dummy": "9",
       "urlref": "/D4WMO-AP-ASIS/releases/1.0.0/",
       "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
       "branchtag": "ReSpecCV",
@@ -24,7 +24,7 @@
       }
     },
     {
-      "dummy": "8",
+      "dummy": "9",
         "urlref": "/D4WMO-Generic/releases/1.0.0/",
         "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
         "branchtag": "ReSpecCV",
@@ -36,7 +36,7 @@
         }
     },
     {
-    "dummy": "1",
+    "dummy": "2",
       "urlref": "/D4WMO-AP/releases/1.0.0/",
       "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
       "branchtag": "ReSpecCV",
