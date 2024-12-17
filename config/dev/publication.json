@@ -1,5 +1,5 @@
 [
-  {
+    {
 	"dummy": "13",
     "urlref": "/D4WTA-AP/releases/1.0.0/",
     "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
@@ -8,15 +8,27 @@
     "filename": "config/data4wallonia.json",
     "navigation": {
       "prev":"https://digitalwallonia.github.io/data4wallonia-generated/D4WTA-AP/releases/1.0.0"
-    
-    }
-  },
-  {
+ 
+      }
+    },
+    {
     "dummy": "24",
       "urlref": "/D4WMO-AP-ASIS/releases/1.0.0/",
       "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
       "branchtag": "ReSpecCV",
       "name": "d4wmo-ap-asis",
+      "filename": "config/data4wallonia.json",
+      "navigation": {
+        "prev":"https://digitalwallonia.github.io/data4wallonia-generated/D4WMO-AP-ASIS/releases/1.0.0"
+      
+      }
+    },
+    {
+    "dummy": "1",
+      "urlref": "/D4WMO-VOC-ASIS/releases/1.0.0/",
+      "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
+      "branchtag": "ReSpecCV",
+      "name": "d4wmo-voc-asis",
       "filename": "config/data4wallonia.json",
       "navigation": {
         "prev":"https://digitalwallonia.github.io/data4wallonia-generated/D4WMO-AP-ASIS/releases/1.0.0"
