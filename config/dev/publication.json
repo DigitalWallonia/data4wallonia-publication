@@ -24,8 +24,8 @@
       }
     },
     {
-    "dummy": "1",
-      "urlref": "/D4WMO-VOC-ASIS/releases/1.0.0/",
+    "dummy": "2",
+      "urlref": "/doc/vocabularium/D4WMO-VOC-ASIS/releases/1.0.0/",
       "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
       "branchtag": "ReSpecCV",
       "name": "d4wmo-voc-asis",
