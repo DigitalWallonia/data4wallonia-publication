@@ -4,7 +4,7 @@
     "fr", "de"
   ],
   "hostname": "https://DigitalWallonia.github.io",
-  "domain": "data.europa.eu",
+  "domain": "data4wallonia.com",
   "publicationpoints" : ["dev"],
   "generatedrepository" : {
 	  "organisation": "DigitalWallonia",
