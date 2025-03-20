@@ -12,7 +12,7 @@
       }
     },
     {
-    "dummy": "54",
+    "dummy": "55",
       "urlref": "/D4WMO-AP-ASIS/releases/1.0.0/",
       "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
       "branchtag": "ReSpecCV",
@@ -36,7 +36,7 @@
       }
     },
     {
-      "dummy": "16",
+      "dummy": "17",
         "urlref": "/D4WMO-Generic/releases/1.0.0/",
         "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
         "branchtag": "ReSpecCV",
