@@ -499,7 +499,7 @@ jobs:
             export TAG=`echo "${CIRCLE_SHA1}" | cut -c1-15`
             git tag -f "${TAG}"
             git push --force origin "${CIRCLE_BRANCH}"
-            git push --tags
+            git push --force --tags
 workflows:
   version: 2
   generate_documentation:
