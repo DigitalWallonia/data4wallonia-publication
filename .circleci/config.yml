@@ -7,7 +7,7 @@ jobs:
       - image: cimg/node:18.16.0
     steps:
       - checkout
-      - run: touch ~/.ssh/known_hosts
+      - run: mkdir -p ~/.ssh && touch ~/.ssh/known_hosts
       - run:
           name: Add github.com to known hosts
           command: ssh-keyscan github.com >> ~/.ssh/known_hosts
@@ -412,7 +412,7 @@ jobs:
       - checkout
       - attach_workspace:
           at: /tmp/workspace
-      - run: touch ~/.ssh/config
+      - run: mkdir -p ~/.ssh && touch ~/.ssh/config
       - run: touch ~/.ssh/known_hosts
       - run:
           name: Add github.com to known hosts
