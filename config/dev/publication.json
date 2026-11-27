@@ -70,5 +70,21 @@
         "prev":"https://digitalwallonia.github.io/data4wallonia-generated/D4WMO-CPSVAP/releases/1.0.0"
       
       }
-    }
+    },
+	{
+    "urlref": "/DCAT-AP/releases/3.0.1",
+    "repository": "git@github.com:DigitalWallonia/data4wallonia-thema.git",
+	"branchtag": "ReSpecCV",
+    "name": "dcat-ap",
+    "filename": "config/dcat-ap.json",
+    "navigation": {
+      "prev": "https://semiceu.github.io/DCAT-AP/releases/3.0.0/"
+    },
+    "private": true,
+    "examples": false,
+    "contextgenerator": {
+      "parameters": "-c -l label"
+    },
+    "dummy": 1
+  }
  ]
